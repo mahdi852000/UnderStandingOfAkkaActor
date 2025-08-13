@@ -4,7 +4,7 @@ This report explains a small Akka Typed Actors project in Java. The project demo
 Project Overview
 The project models a simple actor system with a root actor managing two child actors. Messages are sent as strings or integers, which are forwarded to specific child actors. The system also schedules periodic messages using Akka’s built-in scheduler.
 Actor Hierarchy and Messages
-گRootActor
+RootActor
 •	The root actor (RootActor) acts as a supervisor and message router.
 •	It creates two child actors: ChildActor1 and ChildActor2.
 •	It receives messages of types String, Integer, Message1, and Message2.
